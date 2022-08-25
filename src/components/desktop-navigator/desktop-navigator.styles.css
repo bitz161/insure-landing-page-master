@@ -1,0 +1,47 @@
+.desktop-navigator-container {
+  display: flex;
+  flex-direction: row;
+  padding: 0 9rem;
+  color: hsl(273, 4%, 51%);
+  max-width: 100%;
+  justify-content: space-between;
+  background: white;
+  height: 5rem;
+  align-items: center;
+}
+
+.desktop-navigator-links {
+  display: flex;
+  flex-direction: row;
+  text-transform: uppercase;
+  font-size: 15px;
+  width: 40rem;
+  justify-content: space-evenly;
+}
+
+.desktop-navigator-links div {
+  padding: 10px 0;
+}
+
+.desktop-navigator-links div:nth-last-of-type(1) {
+  border: 2px solid black;
+  height: 2.5rem;
+  width: 10rem;
+  color: black;
+}
+
+.desktop-navigator-links div:hover {
+  cursor: pointer;
+  color: black;
+}
+
+.desktop-navigator-links div:nth-last-of-type(1):hover {
+  background-color: black;
+  color: white;
+}
+
+@media only screen and (max-width: 375px) {
+  .desktop-navigator-container {
+    display: none;
+  }
+}

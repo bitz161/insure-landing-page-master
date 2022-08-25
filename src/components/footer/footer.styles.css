@@ -1,0 +1,105 @@
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  max-width: 100%;
+  align-items: center;
+  height: 20rem;
+  padding-bottom: 5rem;
+  background-color: hsl(0, 0%, 98%);
+  text-transform: uppercase;
+}
+.footer-container section {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  justify-content: space-between;
+}
+.footer-container section:nth-of-type(1) {
+  padding: 3rem 0;
+  justify-content: space-between;
+  height: 3rem;
+  align-items: center;
+  border-bottom: 1px solid hsl(273, 4%, 51%);
+}
+
+.company-container,
+.help-container,
+.contact-container,
+.other-container {
+  width: 20%;
+  height: 10rem;
+  margin-top: 2rem;
+  font-size: 15px;
+  font-weight: 700;
+}
+.company-container div,
+.help-container div,
+.contact-container div,
+.other-container div {
+  margin-bottom: 0.5rem;
+}
+.company-container div:nth-of-type(1),
+.help-container div:nth-of-type(1),
+.contact-container div:nth-of-type(1),
+.other-container div:nth-of-type(1) {
+  color: hsl(273, 4%, 51%);
+  margin-bottom: 1rem;
+}
+
+.footer-logo {
+  margin-left: 15px;
+  cursor: pointer;
+  fill: #837d88;
+}
+svg.footer-logo:hover {
+  fill: black;
+}
+
+.footer-pattern-desktop {
+  position: absolute;
+  left: 0;
+}
+.footer-pattern-mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 375px) {
+  .footer-pattern-desktop {
+    display: none;
+  }
+  .footer-pattern-mobile {
+    display: block;
+    position: absolute;
+  }
+
+  .footer-container section {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  .footer-container section:nth-of-type(1) {
+    flex-direction: column;
+    height: 11rem;
+    padding-top: 4.5rem;
+    padding-bottom: 2rem;
+  }
+
+  .company-container,
+  .help-container,
+  .contact-container,
+  .other-container {
+    width: 80%;
+    height: 9rem;
+  }
+
+  .footer-container {
+    height: 60rem;
+  }
+  .company-container div:nth-of-type(1),
+  .help-container div:nth-of-type(1),
+  .contact-container div:nth-of-type(1),
+  .other-container div:nth-of-type(1) {
+    margin-bottom: 2rem;
+  }
+}

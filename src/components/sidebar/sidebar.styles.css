@@ -1,0 +1,28 @@
+.sidebar-links-container {
+  background-color: hsl(256, 26%, 20%);
+  color: white;
+  height: 37.2rem;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding: 1rem 0;
+  position: absolute;
+}
+
+.sidebar-links-container div {
+  margin: 5px 1.2em;
+  height: 4rem;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.sidebar-links-container div:nth-last-of-type(1) {
+  border: 1px solid white;
+}
+.sidebar-links-container div:nth-last-of-type(1):hover {
+  background-color: white;
+  color: black;
+}
+
+.sidebar-pattern {
+  margin-top: 5rem;
+}

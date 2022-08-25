@@ -1,0 +1,13 @@
+.mobile-navigation-container {
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+  background: white;
+}
+
+@media only screen and (max-width: 375px) {
+  .mobile-navigation-container {
+    display: flex;
+  }
+}

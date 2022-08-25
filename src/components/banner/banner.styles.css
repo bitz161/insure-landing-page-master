@@ -1,0 +1,64 @@
+.banner-container {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 15.7rem;
+  margin: 5rem 0 8em 0;
+}
+.inner-banner-container {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5rem;
+  background-color: hsl(256, 26%, 20%);
+  color: white;
+}
+
+.inner-banner-container h2 {
+  font-size: 50px;
+  width: 28rem;
+  text-align: left;
+}
+.inner-banner-container div {
+  border: 1px solid white;
+  text-transform: uppercase;
+  padding: 0.5rem 1rem;
+  font-size: 20px;
+}
+.inner-banner-container div:hover {
+  background-color: white;
+  color: black;
+}
+
+.howweworkpattern {
+  position: absolute;
+  right: 15%;
+}
+.howweworkpatternmobile {
+  display: none;
+}
+
+@media only screen and (max-width: 375px) {
+  .howweworkpattern {
+    display: none;
+  }
+  .inner-banner-container h2 {
+    font-size: 40px;
+    width: 20rem;
+    text-align: center;
+  }
+  .inner-banner-container {
+    flex-direction: column;
+    width: 90%;
+    justify-content: space-evenly;
+  }
+  .banner-container {
+    height: 23rem;
+  }
+  .howweworkpatternmobile {
+    display: block;
+    position: absolute;
+    right: 20px;
+  }
+}
