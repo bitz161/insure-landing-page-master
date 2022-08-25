@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/insure-landing-page-master/static/css/main.66180e1a.css",
+    "main.js": "/insure-landing-page-master/static/js/main.223130c7.js",
+    "static/js/787.7803eb11.chunk.js": "/insure-landing-page-master/static/js/787.7803eb11.chunk.js",
+    "static/media/image-intro-desktop.jpg": "/insure-landing-page-master/static/media/image-intro-desktop.2f3429f63753a67e322b.jpg",
+    "static/media/image-intro-mobile.jpg": "/insure-landing-page-master/static/media/image-intro-mobile.8b8c3185ce1388b2bb9e.jpg",
+    "static/media/logo.svg": "/insure-landing-page-master/static/media/logo.b84080a147fc2d2276186c0349edfeec.svg",
+    "static/media/bg-pattern-mobile-nav.svg": "/insure-landing-page-master/static/media/bg-pattern-mobile-nav.b2fceba3d85314c104868fce09cd879c.svg",
+    "static/media/bg-pattern-how-we-work-desktop.svg": "/insure-landing-page-master/static/media/bg-pattern-how-we-work-desktop.eb268c33d9921cd960db6b6ffa65c644.svg",
+    "static/media/bg-pattern-intro-left-desktop.svg": "/insure-landing-page-master/static/media/bg-pattern-intro-left-desktop.3a425b38f5531b055de49ec32822cf8c.svg",
+    "static/media/bg-pattern-intro-right-desktop.svg": "/insure-landing-page-master/static/media/bg-pattern-intro-right-desktop.0c130b3f008bf9eb1d1b204d6bdd53e0.svg",
+    "static/media/bg-pattern-footer-desktop.svg": "/insure-landing-page-master/static/media/bg-pattern-footer-desktop.700c39ea607592bfacaf790991a07f0b.svg",
+    "static/media/bg-pattern-footer-mobile.svg": "/insure-landing-page-master/static/media/bg-pattern-footer-mobile.9f048cf0d8710a041f70534fbc93ed7a.svg",
+    "static/media/bg-pattern-how-we-work-mobile.svg": "/insure-landing-page-master/static/media/bg-pattern-how-we-work-mobile.96cd9d0635dc0b4420227ebc8668096d.svg",
+    "static/media/bg-pattern-intro-left-mobile.svg": "/insure-landing-page-master/static/media/bg-pattern-intro-left-mobile.111709ef92e6f76465a94048f9c12fad.svg",
+    "static/media/bg-pattern-intro-right-mobile.svg": "/insure-landing-page-master/static/media/bg-pattern-intro-right-mobile.0354e57129409ea983cd642c14acfb82.svg",
+    "index.html": "/insure-landing-page-master/index.html",
+    "static/media/icon-affordable-prices.svg": "/insure-landing-page-master/static/media/icon-affordable-prices.a14b80772734da267900f7318cf981cc.svg",
+    "static/media/icon-instagram.svg": "/insure-landing-page-master/static/media/icon-instagram.6682caac7a90c9ea634630a152e66cb3.svg",
+    "static/media/icon-pinterest.svg": "/insure-landing-page-master/static/media/icon-pinterest.09de5951c2076ed931b50915ac7a725d.svg",
+    "static/media/icon-people-first.svg": "/insure-landing-page-master/static/media/icon-people-first.d7caeec6d85bd1e295394236448c7dc9.svg",
+    "static/media/icon-twitter.svg": "/insure-landing-page-master/static/media/icon-twitter.c152e9454da835c2196becb65bac5158.svg",
+    "static/media/icon-facebook.svg": "/insure-landing-page-master/static/media/icon-facebook.5d9958768e7eff5d5b28761561bb6376.svg",
+    "static/media/icon-snappy-process.svg": "/insure-landing-page-master/static/media/icon-snappy-process.eea918825472aa9c0993c85ced5522e7.svg",
+    "static/media/icon-close.svg": "/insure-landing-page-master/static/media/icon-close.f964824b48f9414b2ad2da1c4817ec5f.svg",
+    "static/media/icon-hamburger.svg": "/insure-landing-page-master/static/media/icon-hamburger.d550a648e0286cb7dddf1b1c8fc23d17.svg",
+    "main.66180e1a.css.map": "/insure-landing-page-master/static/css/main.66180e1a.css.map",
+    "main.223130c7.js.map": "/insure-landing-page-master/static/js/main.223130c7.js.map",
+    "787.7803eb11.chunk.js.map": "/insure-landing-page-master/static/js/787.7803eb11.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66180e1a.css",
+    "static/js/main.223130c7.js"
+  ]
+}
